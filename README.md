@@ -80,7 +80,7 @@ Implementation of a **CRUD API** using **FastAPI (Python)** and **MySQL**. It in
 
 ##  Objective
 
-> **"Create a working CRUD API using MySQL and a programming language"**
+> **Create a working CRUD API using MySQL and a programming language**
 
 - Programming Language: **Python + FastAPI**  
 - DB Engine: **MySQL 8.x**  
