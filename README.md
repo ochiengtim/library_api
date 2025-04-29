@@ -59,7 +59,6 @@ Contains:
 
 ###  How to Import the DB
 
-```bash
 mysql -u root -p
 CREATE DATABASE library_db;
 exit
@@ -124,7 +123,7 @@ Implementation of a **CRUD API** using **FastAPI (Python)** and **MySQL**. It in
 
 ###  STEP 1: Clone the repository
 
-```bash
+
 git clone https://github.com/YOUR_USERNAME/library_api.git
 cd library_api
 
