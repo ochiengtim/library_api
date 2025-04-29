@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Library Frontend</title>
+</head>
+<body>
+  <h1>Library Management Frontend</h1>
+  <input type="text" id="categoryName" placeholder="New Category" />
+  <button onclick="addCategory()">Add Category</button>
+  <button onclick="loadCategories()">Load Categories</button>
+  <ul id="categoryList"></ul>
+
+  <script>
+    const API_URL = "http://127.0.0.1:8000/categories/";
+
+    function addCategory() {
+      const name = document.getElementById("categoryName").value;
+      fetch(API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ name })
+      }).then(loadCategories);
+    }
+
+    function loadCategories() {
+      fetch(API_URL)
+        .then(res => res.json())
+        .then(data => {
+          const list = document.getElementById("categoryList");
+          list.innerHTML = "";
+          data.forEach(cat => {
+            const li = document.createElement("li");
+            li.textContent = `${cat.category_id}: ${cat.name}`;
+            list.appendChild(li);
+          });
+        });
+    }
+  </script>
+</body>
+</html>
