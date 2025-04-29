@@ -124,7 +124,7 @@ Implementation of a **CRUD API** using **FastAPI (Python)** and **MySQL**. It in
 ###  STEP 1: Clone the repository
 
 
-git clone https://github.com/YOUR_USERNAME/library_api.git
+git clone https://github.com/ochiengtim/library_api.git
 cd library_api
 
 
@@ -194,8 +194,8 @@ This ERD visualizes the relationship between categories, authors, books, members
 
 Or refer to the image below:
 
-![ERD](<img width="602" alt="Screenshot 2025-04-29 220708" src="https://github.com/user-attachments/assets/77047a35-1614-4e55-b725-04c3f6a6645e" />
-)
+![ERD](<img width="602" alt="Screenshot 2025-04-29 221505" src="https://github.com/user-attachments/assets/40377309-e577-473a-a352-1d5daa90bc41" />)
+
 
 
 
