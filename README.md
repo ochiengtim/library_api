@@ -187,6 +187,18 @@ python -m http.server 5500
 Open in your browser:
 http://127.0.0.1:5500/index.html
 
+##  ERD
+
+This ERD visualizes the relationship between categories, authors, books, members, and loans.
+
+ [View ERD on dbdiagram.io](https://dbdiagram.io/d/681122a01ca52373f5df3652)
+
+Or refer to the image below:
+
+![ERD](<img width="602" alt="Screenshot 2025-04-29 220708" src="https://github.com/user-attachments/assets/77047a35-1614-4e55-b725-04c3f6a6645e" />
+)
+
+
 
 
 
